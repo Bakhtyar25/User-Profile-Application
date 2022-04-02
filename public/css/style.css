@@ -32,8 +32,9 @@
   }
   
 
+
 .rasm{
-    background-image: url(../images/userimg.jpg);
+    background-image: url(../images/coding.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     
@@ -57,4 +58,12 @@
   margin-top: 30px;
   text-align: center;
   
+}
+.linkakan{
+  color: rgb(0, 0, 0) !important;
+}
+.linkakan:hover{
+  color: rgb(255, 227, 67) !important;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
 }

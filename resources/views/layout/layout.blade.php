@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/headerstyle.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/cssff/all.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/webfonts/fa-brands-400.eot">
@@ -16,14 +16,20 @@
 
 <body class="bg-dark " style="background-color: black !important ;">
 
-<header class="py-3 mb-3 border-bottom bg-warning " >
-    <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 16fr;">
-          <img class="bi me-2" width="40" height="40" src="images/logo.svg">
+<header class="py-3 mb-3  bg-warning " >
+    <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 16fr 1fr;">
+          <a href="home"><img class="bi me-2" width="40" height="40" src="images/logo.svg"></a>
 
-        <ul class="nav col-12 col-lg-auto me-lg-auto fw-bold text-dark">
-          <li><a href="#" class="nav-link px-2 link-dark">Home</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">profile</a></li>
+        <ul class="nav col-12 col-lg-auto me-lg-auto fw-bold ">
+          <li><a href="home" class="nav-link px-2 linkakan" >Home</a></li>
+          <li><a href="profile" class="nav-link  px-2 linkakan" >profile</a></li>
         </ul>
+
+        <div class="text-end">
+          <a href="profile" class="d-block link-dark text-decoration-none " >
+            <img src="images/userimg.jpg"  width="45" height="45" class="rounded-circle">
+          </a>
+        </div>
     </div>
     
 </header>
@@ -33,13 +39,13 @@
 
 </body>
 
-<footer class="bg-dark text-white pt-5" style="background-color: black !important ;">
+<footer class="bg-dark text-white " style="background-color: black !important ;">
     <div class="container text-center text-md-left">
       <div class="row text-center text-ms-left">
         
 
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-blod text-warning">Contact Us</h5>
+          <h5 class="text-uppercase mb-4 font-weight-blod text-warning">Contact Me</h5>
           <p>
             Sluaimany, Chwarchra, SPU
           </p>
